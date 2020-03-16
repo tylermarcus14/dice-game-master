@@ -83,10 +83,6 @@ class Scrabble extends Component {
   render() {
     return (
       <div id="scrabble">
-        <div className="text">
-          <h3>Use ALL 12 letters to make words that connect. </h3>
-          <li>Words must have at least 3 letters.</li> <li>No proper nouns.</li> <li> No time limit. </li><li>Most rolls are solvable but not all.</li>
-        </div>
         <div className="board-border">
           <div className="board">
             <FlipMove duration={200} staggerDelayBy={150}>
@@ -103,6 +99,10 @@ class Scrabble extends Component {
             active={true}
             large={true}
           />
+        </div>
+        <div className="text">
+          <h3>Use ALL 12 letters to make words that connect. </h3>
+          <li>Words must have at least 3 letters.</li> <li>No proper nouns.</li> <li> No time limit. </li><li>Refresh the page to change the letter combinations.</li><li>Most combinations are solvable but not all.</li>
         </div>
     
       </div>
