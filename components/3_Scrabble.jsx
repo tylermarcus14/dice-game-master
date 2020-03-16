@@ -11,11 +11,9 @@ import {
   DragDropContext
 }                                       from 'react-dnd';
 
-
 import FlipMove from 'react-flip-move';
 import Toggle from './Toggle.jsx';
 import tiles from '../data/tiles.js';
-
 
 const BOARD_WIDTH   = 11;
 const BOARD_HEIGHT  = 7;

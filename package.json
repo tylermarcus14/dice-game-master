@@ -1,14 +1,14 @@
 {
-  "name": "react-flip-move-example-shuffle",
+  "name": "dice-game-master",
   "version": "0.0.0",
-  "description": "Example of React Flip Move",
+  "description": "Dice Game",
   "scripts": {
     "start": "node server.js",
     "build": "cross-env NODE_ENV=production webpack index.js --config webpack.config.production.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshwcomeau/react-flip-move.git"
+    "url": "https://github.com/tylermarcus14/dice-game-master.git"
   },
   "keywords": [
     "react",
@@ -18,9 +18,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshwcomeau/react-flip-move/issues"
+    "url": "https://github.com/tylermarcus14/dice-game-master/issues"
   },
-  "homepage": "http://joshwcomeau.github.io/react-flip-move",
+  "homepage": "https://github.com/tylermarcus14/dice-game-master",
   "dependencies": {
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "classnames": "^2.2.3",
