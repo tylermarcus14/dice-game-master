@@ -115,7 +115,7 @@ $board-height:    $square-size * $squares-per-col;
   .text {
     position: relative;
     margin: 1rem auto;
-    margin-top: 8rem ;
+    margin-top: 10rem ;
     width:  $board-width + ($gutter-width * 2);
     text-align: left;
   }
