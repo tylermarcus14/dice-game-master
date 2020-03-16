@@ -112,5 +112,11 @@ $board-height:    $square-size * $squares-per-col;
     width:  $board-width + ($gutter-width * 2);
     text-align: right;
   }
+  .text {
+    position: relative;
+    margin: 1rem auto;
+    width:  $board-width + ($gutter-width * 2);
+    text-align: left;
+  }
 
 }
